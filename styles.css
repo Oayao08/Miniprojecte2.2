@@ -1,4 +1,4 @@
-/*Estilos principales siempre al inicio de .css*/
+por/*Estilos principales siempre al inicio de .css*/
 body {
   margin: 0;
   font-family: "Garamond", serif;
@@ -155,7 +155,7 @@ footer {
   font-size: 14px;
 }
 
-/*Estilo responsive para el movil*/
+/*Estilo responsive para diferentes dispositivos*/
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
