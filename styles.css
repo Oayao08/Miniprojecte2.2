@@ -59,7 +59,7 @@ nav a:hover {
 
 main {
   margin-top: 20px;
-  background-image: url(../img/fotomain.jpg);
+  background-image: url(img/fotomain.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -241,4 +241,5 @@ footer {
   .solution-item {
     width: 100%;
   }
+
 }
