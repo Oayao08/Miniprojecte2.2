@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0b2b5a;
-  background-color: #ffffff;
+  background-color: #0b2b5a;
 }
 
 /* Barra inicial */
@@ -21,7 +21,7 @@ body {
   align-items: center;
   background-color: #ffffff;
   padding: 15px 40px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 /* Logo */
@@ -80,7 +80,7 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255,255,255,0.55); 
+  background: rgba(255, 255, 255, 0.55);
   z-index: 0;
 }
 
@@ -91,7 +91,7 @@ main {
   justify-content: space-between;
   padding: 60px 40px;
   position: relative;
-  z-index: 1; 
+  z-index: 1;
   min-height: 60vh;
   box-sizing: border-box;
   gap: 20px;
@@ -144,7 +144,13 @@ main {
   border-radius: 5px;
   display: block;
   height: auto;
-  box-shadow: 0 6px 20px rgba(11,43,90,0.08);
+  box-shadow: 0 6px 20px rgba(11, 43, 90, 0.08);
+}
+
+.Provide-solutions {
+  padding: 60px 40px;
+  background-color: #0b2b5a;
+  text-align: center;
 }
 
 .solutions {
@@ -201,7 +207,8 @@ footer {
     min-height: 55vh;
   }
 
-  .navbar, .topbar {
+  .navbar,
+  .topbar {
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -214,7 +221,8 @@ footer {
     padding: 36px 20px;
   }
 
-  .hero-text, .hero-image {
+  .hero-text,
+  .hero-image {
     flex: 1 1 100%;
     max-width: 100%;
   }
